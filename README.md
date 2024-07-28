@@ -6,16 +6,10 @@
 flask --app flaskr run --debug
 ```
 
-- run dev/prod with specific config
-
-```bash
-./scripts/run.sh [dev/prod]
-```
-
 - make it installable
 
 ```bash
-./scripts/setup.sh
+pip install -e .
 ```
 
 - run app `with default config`
