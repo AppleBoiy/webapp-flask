@@ -3,7 +3,7 @@
 - init db
 
 ```shell
-flask --app flaskr run --debug
+flask --app flaskr init-db
 ```
 
 - make it installable
@@ -22,12 +22,4 @@ flask --app flaskr run --debug
 
 ```shell
 python -m build --wheel
-```
-
-#### Production
-
-- run app `with production config`
-
-```shell
-flask --app flaskr run --debug
 ```
